@@ -11,8 +11,8 @@ driver.implicitly_wait(10)
 driver.get("https://www.instagram.com/accounts/login/")
 
 login_page = LoginPage(driver)
-login_page.enter_username("login-login")
-login_page.enter_password("password")
+login_page.enter_username("munchkin03")
+login_page.enter_password("123456aA!")
 login_page.click_login()
 
 main_page = MainPage(driver)

@@ -6,6 +6,8 @@ Feature: Login
     Given I open login page
     When I log in
     When I click now button
+    When I enter text in search field
+    Then I assert data
 
   Scenario Outline: Invalid login
     Given I open login page

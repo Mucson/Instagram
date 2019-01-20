@@ -4,7 +4,6 @@ from features.pages.base_page import BasePage
 
 
 class MainPage(BasePage):
-
     button_not_now = (By.XPATH, "//button[text()='Не сейчас']")
     field_search = (By.XPATH, "//input[@placeholder = 'Поиск']")
 
