@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="24ca3430-a959-4d2c-82a9-558b0d9436f6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/environment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/search_results_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/search_results_steps.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,9 +16,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Instagram$login_feature_Invalid_login.coverage" NAME="login.feature:Invalid login Coverage Results" MODIFIED="1546246283578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Instagram$environment.coverage" NAME="environment Coverage Results" MODIFIED="1546058252696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features" />
-    <SUITE FILE_PATH="coverage/Instagram$login_feature.coverage" NAME="login.feature Coverage Results" MODIFIED="1546058266441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Instagram$login_feature.coverage" NAME="login.feature Coverage Results" MODIFIED="1552324801076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Instagram$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1546256044499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features" />
-    <SUITE FILE_PATH="coverage/Instagram$login_feature_one_step.coverage" NAME="login.feature:one step Coverage Results" MODIFIED="1547990150884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Instagram$login_feature_one_step.coverage" NAME="login.feature:one step Coverage Results" MODIFIED="1552324709432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Instagram$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1547989757688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features" />
     <SUITE FILE_PATH="coverage/Instagram$login_feature_Valid_login.coverage" NAME="login.feature:Valid login Coverage Results" MODIFIED="1549017405307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
@@ -27,17 +27,29 @@
       <file leaf-file-name="login.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="406">
+              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="environment.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/environment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="204">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -48,8 +60,11 @@
       <file leaf-file-name="base_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/pages/base_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,7 +72,7 @@
       <file leaf-file-name="search_results_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/pages/search_results_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="221">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
@@ -81,8 +96,8 @@
       <file leaf-file-name="search_results_steps.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/steps/search_results_steps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="102">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -94,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/features/pages/login_page.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -102,8 +117,8 @@
       <file leaf-file-name="main_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/pages/main_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="204">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -114,22 +129,10 @@
       <file leaf-file-name="login_steps.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/steps/login_steps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            <state relative-caret-position="714">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_steps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/steps/main_steps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,9 +167,9 @@
         <option value="$PROJECT_DIR$/behave.ini" />
         <option value="$PROJECT_DIR$/features/test1.py" />
         <option value="$PROJECT_DIR$/features/steps/main_steps.py" />
-        <option value="$PROJECT_DIR$/features/environment.py" />
         <option value="$PROJECT_DIR$/features/steps/search_results_steps.py" />
         <option value="$PROJECT_DIR$/features/login.feature" />
+        <option value="$PROJECT_DIR$/features/environment.py" />
       </list>
     </option>
   </component>
@@ -211,12 +214,6 @@
             </path>
             <path>
               <item name="Instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Instagram" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -244,8 +241,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Behave.login.feature:Valid login">
-    <configuration name="login.feature:Invalid login" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+  <component name="RunManager" selected="Behave.login.feature">
+    <configuration name="login.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="Instagram" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,7 +253,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/login.feature" />
-      <SCENRAIO_NAMES SCENRAIO_NAMES="Invalid login" />
       <option name="ADDITIONAL_ARGS" value="" />
     </configuration>
     <configuration name="login.feature:Valid login" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
@@ -326,19 +322,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Behave.login.feature:Invalid login" />
       <item itemvalue="Behave.login.feature:Valid login" />
       <item itemvalue="Behave.login.feature:one step" />
       <item itemvalue="Python.test2" />
       <item itemvalue="Python.test1" />
+      <item itemvalue="Behave.login.feature" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Behave.login.feature:Valid login" />
+        <item itemvalue="Behave.login.feature" />
         <item itemvalue="Behave.login.feature:one step" />
+        <item itemvalue="Behave.login.feature:Valid login" />
         <item itemvalue="Python.test1" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="Behave.login.feature:Invalid login" />
       </list>
     </recent_temporary>
   </component>
@@ -356,27 +352,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="login_feature_Valid_login - 2019.02.01 at 13h 14m 25s.xml">
-      <configuration name="login.feature:Valid login" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
-    <history-entry file="login_feature_Valid_login - 2019.02.01 at 13h 17m 42s.xml">
-      <configuration name="login.feature:Valid login" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
-    <history-entry file="login_feature_Valid_login - 2019.02.01 at 13h 19m 00s.xml">
-      <configuration name="login.feature:Valid login" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
-    <history-entry file="login_feature_Valid_login - 2019.02.01 at 13h 22m 54s.xml">
-      <configuration name="login.feature:Valid login" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
-    <history-entry file="login_feature_Valid_login - 2019.02.01 at 13h 25m 58s.xml">
-      <configuration name="login.feature:Valid login" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
-    <history-entry file="login_feature_Valid_login - 2019.02.01 at 13h 27m 02s.xml">
-      <configuration name="login.feature:Valid login" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
-    <history-entry file="login_feature_Valid_login - 2019.02.01 at 13h 34m 01s.xml">
-      <configuration name="login.feature:Valid login" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
     <history-entry file="login_feature_Valid_login - 2019.02.01 at 13h 34m 33s.xml">
       <configuration name="login.feature:Valid login" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
@@ -386,17 +361,37 @@
     <history-entry file="login_feature_Valid_login - 2019.02.01 at 13h 37m 04s.xml">
       <configuration name="login.feature:Valid login" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
+    <history-entry file="login_feature - 2019.03.11 at 20h 13m 52s.xml">
+      <configuration name="login.feature" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="login_feature - 2019.03.11 at 20h 14m 32s.xml">
+      <configuration name="login.feature" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="login_feature - 2019.03.11 at 20h 15m 22s.xml">
+      <configuration name="login.feature" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="login_feature - 2019.03.11 at 20h 16m 09s.xml">
+      <configuration name="login.feature" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="login_feature_one_step - 2019.03.11 at 20h 18m 39s.xml">
+      <configuration name="login.feature:one step" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="login_feature - 2019.03.11 at 20h 19m 20s.xml">
+      <configuration name="login.feature" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="login_feature - 2019.03.11 at 20h 20m 33s.xml">
+      <configuration name="login.feature" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Python Console" order="3" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.4773083" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.43505478" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17423134" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -421,6 +416,191 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/search_results_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/base_steps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/search_results_steps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/main_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/login_steps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/main_steps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/search_results_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/base_steps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/search_results_steps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/main_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/login_steps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/main_steps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/login.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -547,49 +727,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/environment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/steps/main_steps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/login_page.py">
+    <entry file="file://$PROJECT_DIR$/features/steps/search_results_steps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/pages/main_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/steps/login_steps.py">
+    <entry file="file://$PROJECT_DIR$/features/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        <state relative-caret-position="204">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -604,9 +767,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/login_steps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/pages/main_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/pages/search_results_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="221">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
@@ -614,36 +804,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/steps/search_results_steps.py">
+    <entry file="file://$PROJECT_DIR$/features/pages/login_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/pages/base_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
