@@ -6,14 +6,12 @@ Feature: Login
     Given I open login page
 
   Scenario: Valid login
-    #Given I open login page
     When I log in
     When I click now button
     When I enter text in search field
     Then I assert data
 
   Scenario Outline: Invalid login
-    #Given I open login page
     When I type "<username>" in username field
     When I type "<password>" in password field
     When I click login button
@@ -27,7 +25,6 @@ Feature: Login
 
 
   Scenario: one step
-    #Given I open login page
     Then I see validation for message "Введенное вами имя пользователя не принадлежит аккаунту. Проверьте свое имя пользователя и повторите попытку."
       | username | password |
       | 1234qwrs | 0129412e |
