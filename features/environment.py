@@ -5,7 +5,7 @@ from selenium import webdriver
 
 
 def before_all(context):
-    context.driver = webdriver.Chrome(executable_path=r"C:\chromedriver\chromedriver.exe")
+    context.driver = webdriver.Chrome(executable_path=r"C:\Users\Vladimir\chromedriver\chromedriver.exe")
     context.driver.implicitly_wait(10)
 
     parser = configparser.ConfigParser()
